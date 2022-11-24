@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 2px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  opacity: .97;
+}
+
+h4 {
+	color: white;
+}
+
+h5 {
+  background-color: #FF2400;
+  padding: 25px;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+}
+
+h6 {
+  background-color: #777;
+  padding: 25px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+  opacity: .94;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  opacity: .94;
+}
+
+article {
+  float: left;
+  padding: 25.5px;
+  width: 70%;
+  background-color: #f1f1f1;
+  opacity: .94;
+ 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  
+  bottom: 0;
+  width: 99%;
+  height: 40px;
+  opacity: .8;
+}
+
+@media (max-width: 1600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+	  
+.myDiv {border-style: dotted; border-width: 2px; width: 100px; height: 100px;
+}
